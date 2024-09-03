@@ -21,6 +21,6 @@ pip install -r requirements.txt
 
 5. open in your browser, by default its localhost:8080
 ```bash
-localhost:8080
+https:\\localhost:8080
 ```
 
