@@ -9,17 +9,24 @@ Tokopedia Search Scrapper is an app for scrapping Tokopedia product information 
 ```bash
 git clone https://github.com/NaufalH27/Tokopedia-Search-Scrapper
 ```
+2. change directory to the project
+```bash
+cd Tokopedia-Search-Scrapper
+```
 
-2. install requirements
+3. install requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-3. open src and open main.py
 
-4. run main.py
+4. open src and open main.py
 
-5. open in your browser, by default its localhost:8080
+
+5. run main.py
+   
+
+6. open in your browser, by default its localhost:8080
 ```bash
 https:\\localhost:8080
 ```
