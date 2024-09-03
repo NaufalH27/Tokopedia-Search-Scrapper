@@ -35,8 +35,8 @@ pip install -r requirements.txt
 5. run main.py
    
 
-6. open in your browser, by default its localhost:8080
+6. open in your browser, by default its localhost:8000
 ```bash
-https:\\localhost:8080
+https:\\localhost:8000
 ```
 
