@@ -2,16 +2,13 @@
 Tokopedia Search Scrapper is an app for scrapping Tokopedia product information in search section using FASTAPI library from python, the information will be served as json object<br>
 
 ## how the app work?
-extract > transform > load transformed result with FASTAPI in JSON format <br>
-![product search (3)](https://github.com/user-attachments/assets/b20585cd-7734-4dc1-9a0a-cf4ffc15bb22)
-
-
+![product search (4)](https://github.com/user-attachments/assets/2a7eece3-8e4c-4e3e-b9e6-29792f45b9d7)
 
 
 ## example output:
 ![image](https://github.com/user-attachments/assets/b0feaf73-7018-4bf5-9cac-f9bd79b062a6)
 <br>
-^ this is example for one of the product in result json object 
+^ this is on of the example for the product in result json object 
 
 ## how to install
 1. Clone github repo
