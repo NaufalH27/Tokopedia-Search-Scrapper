@@ -1,16 +1,36 @@
 from pydantic import BaseModel, HttpUrl
 from typing import Optional
 
+def get_data_pool_format():
+    return {
+        "tracking_url": None,
+        "text": [], 
+        "img" :[]
+    }
 
 
-def get_product_list(product_list):
-    schema = []
-    for product_data_bucket in product_list:
-        if ProductData.is_valid(product_data_bucket):
-            schema.append(search_product_data_schema(product_data_bucket))
-    return schema
+def get_data_bucket_format():
+    return {
+       "product_url" : None,
+        "product_name": None,
+        "seller_name" : None,
+        "is_ad": False,
+        "price": None,
+        "price_int" : None,
+        "discount": None,
+        "discount_float" : None,
+        "sold_items": None,
+        "rating": None,
+        "location": None,
+        "seller_url": None,
+        "image_url" : None
+    }
 
-zip
+
+
+
+
+
 
 def search_product_data_schema(product_data_bucket):
  return {

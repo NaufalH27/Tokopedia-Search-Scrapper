@@ -1,6 +1,6 @@
 from collections import deque
 from . import data_identifier
-from . import formats
+from . import schema
 from .helper import list_helper
 from .helper import url_helper
 from .helper import string_helper
@@ -9,7 +9,7 @@ from .helper import string_helper
 
 
 def get_processed_data(data_pool):
-    data_bucket = formats.get_data_bucket_format()
+    data_bucket = schema.get_data_bucket_format()
     dump_url_destination_to_bucket(data_bucket, data_pool["tracking_url"])
     dump_text_data_to_bucket(data_bucket, data_pool["text"])
     dump_image_url_to_bucket(data_bucket, data_pool["img"])
