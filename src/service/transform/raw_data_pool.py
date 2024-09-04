@@ -1,7 +1,7 @@
-from . import formats
+from . import schema
 
 def collect_data(product_div):
-    data_pool = formats.get_data_pool_format()
+    data_pool = schema.get_data_pool_format()
 
     for element in product_div.descendants:
         if isinstance(element, str):

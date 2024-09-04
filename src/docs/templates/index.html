@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokopedia Scrapper</title>
+    <link href="{{ url_for('static', path='styles.css') }}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class = header>
+        <h1> WELCOME TO TOKOPEDIA SEARCH SCRAPPER</h1>
+        <h1></h1>
+    </div>
+    
+    <h2>QUICK TRY:</h2>
+    <div class ="bash">
+        <p><a id="domain"></a></p>
+    </div>
+    <hr>
+    <h1>How to use the API?</h1>
+    <div><img src="{{ url_for('static', path='assets/guide.png') }}"></div>
+    
+
+    <script>
+        const fullDomain = window.location.origin;
+        const path = '/tokopedia/search/ryzen 5 5600g/pages=1';
+        const fullURL = fullDomain + path;
+        document.getElementById('domain').textContent = fullURL;
+        document.getElementById('domain').href = fullURL    
+        document.getElementById('domain').target = "_blank"
+    </script>
+</body>
+</html>
+
